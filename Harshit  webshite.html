@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshitportfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        /* body{
+            overflow-y:scroll;
+        } */
+        .bg{
+            background-image: url('port.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            text-align: end;
+            background-attachment: fixed; 
+        }
+            .nav{
+            width: 100%;
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.926);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+           z-index: 9999;
+            position: fixed;
+            top: 0px;
+        }
+        a{
+            padding: 10px;
+            font-size: 15px;
+            text-decoration: none;
+            font: 800px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white; 
+        }
+        .morgan{
+            display: flex;
+            justify-content: center;
+            padding-top: 230px;
+            font-size: 35px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white;
+        }
+        .developer{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            font-size: 50px;
+        color: whitesmoke;
+        }
+        h1.developer{
+            color: white;
+            text-shadow: 5px 5px 9px #000000;
+        }
+        h1.shadow {
+            color: whitesmoke;
+            text-shadow: 5px 5px 9px #000000;
+} 
+         .about_img{          
+            width: 50%; 
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+        }
+        .title-s{
+            font-weight: 600;
+            color: #1e1e1e;
+            font-size: 1.1rem;
+            margin-left: 50px;              
+        }
+        .skil{ 
+          font-weight: 700;
+            color: #1e1e1e;
+            font-size: large;
+        }
+        .border{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 70px 0;
+        }
+        .new_border{
+            width: 85%;
+            box-shadow: 0px 0px 5px gray;
+            border-radius: 2px;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .main_content_box{
+            width: 90%;
+            display: flex;                      
+        }
+        .content{
+            width: 45%;
+             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+             ;
+             font-size: large;
+             font-weight: 100;
+            }
+        .About{
+           display: flex;
+           align-items: center;
+            border-radius: 5%;
+            width: 100%;  
+        }
+        .containt_box_new div{
+            padding: 6px 0px 0px 30px   ;
+        }
+        .name{
+            width: 100%;
+        }
+        .Profile{
+            width: 100%;
+        }
+        .Emai{
+            width: 100%;
+        }
+        .Phone{
+            width: 100%;
+
+        }
+        .skil{
+            margin: 30px 0;
+            font-weight: 600;
+            color: #1e1e1e;
+            font-size: 1.1rem;
+        }
+        .skill {
+              margin-bottom: 15px;
+              font-weight: 900%;
+         }
+
+.skill-name {
+    font-weight: 400%;
+    margin-bottom: 5px;
+}
+.skill-bar {
+    width: 90%;
+    background-color: #2192e34e;
+    height: 10px;
+    border-radius: 5px;    
+}
+.skill-level {
+    height: 10px;
+    border-radius: 5px;   
+}
+.html {
+    width: 90%; 
+    background-color: #2197e5; 
+}
+.css {
+    width: 80%; 
+    background-color: #2196f3; 
+}
+.PHP{
+    width: 50%; 
+    background-color: #2196f3; 
+}
+.Java{
+    
+    width: 90%; 
+    background-color: #2196f3; 
+}
+.title-a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1e1e1e;
+}
+.subtitle-a{
+    align-items: center;
+    display: flex;
+    justify-content: center;  
+}
+.line-mf{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+.row{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+}
+.row-main-box{
+            width: 90%;
+            height: 350px;
+            border-radius: 2px;
+            display: flex;
+            justify-content: space-between;                      
+}
+.row-1{
+           height: 350px;
+            width: 350px;
+            box-shadow: 0px 1px 8px rgba(128, 128, 128, 0.41);
+            border-radius: 20px;
+}
+.row-2{
+           height: 350px;
+            width: 350px;
+            box-shadow: 0px 1px 8px rgba(128, 128, 128, 0.41);
+            border-radius: 20px;          
+}
+.row-3{
+           height: 350px;
+            width: 350px;
+            box-shadow: 0px 1px 8px rgba(128, 128, 128, 0.41);
+            border-radius: 20px;          
+}
+.row4{  
+   width: 100%;
+   height: 350px;
+   display: flex;
+   justify-content: center; 
+}
+.row-main-box4{
+            width: 90%;
+            height: 300px;
+            border-radius: 2px;
+            display: flex;
+            justify-content: space-between;           
+}
+.row-4{
+            height: 350px;
+            width: 350px;
+            box-shadow: 0px 1px 8px rgba(128, 128, 128, 0.41);
+            border-radius: 20px;
+}
+.row-5{
+            height: 350px;
+            width: 350px;
+            box-shadow: 0px 1px 8px rgba(128, 128, 128, 0.41);
+            border-radius: 20px;       
+}
+.row-6{
+           height: 350px;
+           width: 350px;
+           box-shadow: 0px 1px 8px rgba(128, 128, 128, 0.41);
+           border-radius: 20px;
+}
+.service-box{
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.service-icon{
+            height: 120px;
+            width: 120px;
+            margin: 30px 0;
+            border: 10px solid #0078ff;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            transition: .8s;
+}
+.service-icon:hover{
+            background-color: #0078ff;
+            border-color: #00c8ff80;
+            color: white;
+        }
+        .fa-briefcase{
+            font-size: 40px;
+           
+        }
+        .fa-id-card-o{
+            font-size: 40px;
+        }
+        .fa-bar-chart-o{
+            font-size: 40px;
+        }
+        .fa-binoculars{
+            font-size: 40px;
+
+        }
+        .fa-sun-o{
+            font-size: 40px;
+
+        }
+        .fa-calendar{
+            font-size: 40PX;
+        }      
+.service-content{
+    text-align: center;
+    width: 350px;
+    color:  #4e4e4e;;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg1{
+            background-image: url("https://marvel-b1-cdn.bc0a.com/f00000000290162/images.ctfassets.net/2htm8llflwdx/1LEJIT9KGRC4nwTJ5vuS6H/a912e31c468fd32986f2818816135cc4/OnlineLearning_SouthAsia_Learning_Indoor_GettyImages-1071652068.jpg?fit=thumb");
+            width: 100%;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .blur{
+            height: 100%;
+            width: 100%;
+            background-color: #0077ffc2;
+            display: flex;           
+        }
+        .blur_box{
+            height: 400px;
+            width: 100%;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .box_circle{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            margin: 10px;
+            box-shadow: 0 0 0 10px #cde1f8;
+            justify-content: center;
+            align-items: center;
+            display: flex; 
+        }
+        .fa-check{
+            color:#cde1f8 ;
+            font-size: 2rem;
+        }
+        .fa-newspaper-o{
+            color:#cde1f8 ;
+            font-size: 2rem;
+        }
+        .fa-group{
+            color:#cde1f8 ;
+            font-size: 2rem;
+        }
+        .fa-trophy{
+            color:#cde1f8 ;
+            font-size: 2rem;
+        }
+.counter-text{
+    color: white;
+    margin-bottom: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}  
+.num{
+    color: white;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+        .PORTFOLIO{
+            width: 100%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;  
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .port-lorem{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .linemf{
+         width: 40px;
+         height: 5px;
+         background-color: #0078ff;
+         margin: 0 auto;  
+}
+.row-port{ 
+   width: 100%;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   margin: 50px 0;
+}
+.row-main-portbox{
+       width: 90%;
+       height: 350px;
+       display: flex;
+       justify-content: space-between;
+}
+.row-port1{
+      height: 350px;
+       width: 350px;
+       box-shadow: 0px 0px 5px gray;     
+}
+.row-port2{
+      height: 350px;
+       width: 350px;
+       box-shadow: 0px 0px 5px gray;
+}
+.row-port3{
+      height: 350px;
+       width: 350px;
+       box-shadow: 0px 0px 5px gray;
+}
+.rowport4{
+width: 100%;
+height: 350px;
+display: flex;
+justify-content: center;
+}
+.row-main-portbox4{
+       width: 90%;
+       height: 350px;
+       display: flex;
+       justify-content: space-between;
+}
+.row-port4{
+      height: 350px;
+       width: 350px;
+       box-shadow: 0px 0px 5px gray;
+}
+.row-port5{
+      height: 350px;
+       width: 350px;
+       box-shadow: 0px 0px 5px gray;    
+}
+.row-port6{
+      height: 350px;
+       width: 350px;
+       box-shadow: 0px 0px 5px gray;
+}
+      .service-img  img{
+            width: 100%;
+            height: 80%;
+            transition: .8s;
+            z-index: -1;           
+        }
+        .service-img img:hover{
+         overflow: hidden;
+        height: 250px;
+        width: 100%;
+            transform: scale(1.2);
+            z-index: -1;          
+        }
+        .service-img-lorem{
+            margin:20px;
+            color: #1e1e1e;;
+            align-items: cente;
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.2;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .img_hove{
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+    }
+       .img_hove img{
+        width: 100%;
+        height: 100%;
+    }
+    .port-fa-fa{
+       align-items: end;
+       justify-content: end;
+       display: flex;
+       margin-right: 10px;
+     margin-top: -20px;
+    }
+    .web-more{
+        display: flex;
+       margin-left: 20px;
+    margin-top: -40px;      
+    }
+        .bg2{
+            background-image: url("https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg");
+            height: 550px;
+            width: 100%;
+            background-size: cover;
+            background-attachment: fixed;
+            margin-top: 50px;           
+        }
+        .blur2{
+            height: 100%;
+            width: 100%;
+            background-color:#0077ffa2;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }        
+.port-mid-img{
+    border-radius: 100px;
+    height: 160px;
+    width: 160px;
+    display: flex;
+}
+.hp{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+.hplead{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+            font-size: 1.25rem;
+            font-weight: 300;
+            padding: 0.13rem;
+            color: whitesmoke;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .BLOG{
+            width: 100%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;  
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .BLOG-lorem{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .linemf3{
+         width: 40px;
+         height: 5px;
+         background-color: #0078ff;
+         margin: 0 auto;
+         
+}
+.blog{
+   
+   width: 100%;
+   height: 450px;
+   display: flex;
+   justify-content: center;
+   margin: 50px 0;
+}
+.blog-main-box{
+       width: 90%;
+       height: 450px;
+
+       display: flex;
+       justify-content: space-between;           
+}
+.blog-1{
+      height: 450px;
+       width: 350px;
+       box-shadow: 0px 0px 5px gray;    
+}
+.blog-2{
+      height: 450px;
+       width: 350px;
+       box-shadow: 0px 0px 5px gray;     
+}
+.blog-3{
+      height: 450px;
+       width: 350px;
+       box-shadow: 0px 0px 5px gray;    
+}
+.blog-content{
+    margin: 30px 0 10px ;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: #1e1e1e;;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p{
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;   
+}
+.bg3{
+            background-image: url("https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg");
+            height: 800px;
+            width: 100%;
+            background-size: cover;
+            background-attachment: fixed;
+            margin-top: 50px;
+        }
+        .blur3{
+            height: 100%;
+            width: 100%;
+            background-color:#0077ffa2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .border2{
+        
+            height: 600px;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            margin: 70px 0;
+            background-color: whitesmoke;
+        } 
+.col-form-1{
+    height: 600px;
+    width: 50%;
+}
+.form-titel{
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    color: #1e1e1e;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 50px;
+}
+.col-form-2{
+    height: 600px;
+    width: 50%;
+}
+.form-titel2{
+    font-size: 2rem;
+    margin: 50px 0;  
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #1e1e1e;
+font-weight: 500;
+line-height: 1.2;
+}
+.lead{
+    font-size: 1.35rem;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-right: 20px;
+  color: #4e4e4e;
+}
+.list-ico{
+    list-style: none;
+    margin: 20px 0;
+    line-height: 2;
+    color: #4e4e4e;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: 400;
+}
+.list-ico span {
+    color: #0078ff;
+    margin-right: 10px;
+}
+.form_style{
+    background-color: whitesmoke;
+    height: 40px;
+    box-shadow: 0px 0px 1px rgb(128, 128, 128);
+    width: 85%;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 50px;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+.form_style1{
+    color: #1e1e1e8e;
+    background-color: whitesmoke;
+    height: 120px;
+    box-shadow: 0px 0px 1px rgb(128, 128, 128);
+    width: 85%;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 50px;
+    border: var(--bs-border-width)solid var(--bs-border-color);
+}
+.btn-main{
+    height: 100px;
+    width: 100%;
+
+}
+.div_btn{
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   display: flex;
+}
+        .btn_1{
+            padding: 13px 30px;
+            background-color: #0078ff;
+            font-size: 15px;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border-radius: 30px;
+            transform: scale(1.1);
+        }
+        .btn_1:hover{
+            background-color: #2195f3;
+            transform: scale(1);
+        }
+.form-main-icon{
+    margin: -40px;
+    padding: 5px;
+    margin-left: 10px;   
+}
+.form-icon{
+            height: 50px;
+            width:50px;
+            margin: 20px 0;
+            border: 5px solid #0078ff;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            transition: .8s;
+}
+.form-icon:hover{
+            background-color: #0078ff;
+            border-color: #00c8ff80;
+            color: whitesmoke;
+           
+        }
+        a.fa-facebook-square{
+            font-size: 20px;
+             color: #1e1e1e;
+        }
+        .fa-instagram{
+            font-size: 20px;
+            color: #1e1e1e;
+        }
+        .fa-linkedin-square{
+            font-size: 20px;
+            color: #1e1e1e;
+        }
+        .fa-linkedin-square{
+            font-size: 20px;
+            color: #1e1e1e;
+        }
+        .fa-twitter{
+            font-size: 20px;
+            color: #1e1e1e;
+        }
+    </style> 
+</head>
+<body>
+    <div class="bg">        
+        <div class="nav">
+            <div class="logo">
+                <h1>Harshit</h1>
+            </div>
+            <div>    
+                <a href="">HOME</a>      <a href="">ABOUT</a>     <a href="">SERVICES</a>      <a href="">WORK </a>        <a href="">BLOG</a> <a href="">DROP DOWN </a> <a href=""></a> <a href="">CONTACT</a>
+            </div>
+        </div>
+        <div class="morgan">
+            <h1 class="shadow">I am Harshit Pandey</h1>
+        </div>
+        <h1 class="developer">Developer</h1>
+    </div>
+    <div class="border">
+       <div class="new_border">
+            <div class="main_content_box">
+                <div class="about_img">
+                    <div class="About info">
+                     <div class="img_div_new">
+                       <img src="first_project/Picsart_23-01-15_15-42-57-275.jpg" alt="" height="150px" width="150px">
+                    </div>                                          
+                   <div class="containt_box_new">
+                       <div class="Name:"> <b>Name:</b> Harshit pandey</div>
+                       <div class="Profile:"><b>Profile:</b> full stack developer</div>
+                       <div class="Emai:"><b>Emai</b> hp151578@gmail.com</div>
+                       <div class="Phone:"><b>Phone</b> +91:51327170</div>
+                    </div> 
+                 </div>                   
+                 <div class="skil">
+                    <p>Skill</p> 
+                 </div>
+                       <div class="skill">
+                          <div class="skill-name">HTML 85%</div>
+                            <div class="skill-bar">
+                                   <div class="skill-level html"></div>
+                            </div>
+                     </div>
+                       <div class="skill">
+                           <div class="skill-name">CSS  75%</div>
+                          <div class="skill-bar">
+                               <div class="skill-level css"></div>
+                         </div>
+                      </div>
+                     <div class="skill">
+                        <div class="skill-name">PHP 50%</div>
+                          <div class="skill-bar">
+                                 <div class="skill-level PHP"></div>
+                          </div>
+                        <div class="skill">
+                            <div class="skill-name">JAVASCRIPT 90%</div>
+                              <div class="skill-bar">
+                                     <div class="skill-level Java Scrript"></div>
+                              </div>
+                       </div>
+                  </div>
+          </div>   
+       <div class="content">
+        <h2>About Me</h2>   
+        <br> <br>
+        <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt. <br><br>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem. <br><br>Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. <br><br></p>
+   <br><br><br>
+    </div>
+ </div>
+ </div>
+ </div>
+ </div>
+    <div class="title-box">
+        <h3 class="title-a">
+          Services
+        </h3>
+        <p class="subtitle-a">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="line-mf"></div>
+       </div>
+      <div class="row">
+        <div class="row-main-box">  
+            <div class="row-1">  
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fa fa-briefcase"></i></div>
+                            <div class="service-content">
+                                 <h3 style="color: #1e1e1e;font-weight: 500; line-height: 1.2; font-size: 1.4rem;">WEB DESIGN</h3> <br>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident</p>
+                           </div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="service-box">
+                <div class="service-icon">
+                    <i class="fa fa-id-card-o"></i></div>
+                        <div class="service-content">
+                             <h3 style="color: #1e1e1e;font-weight: 500; line-height: 1.2; font-size: 1.4rem;">WEB DEVELOPMENT</h3> <br>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident</p>
+                       </div>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fa fa-bar-chart-o"></i></div>
+                            <div class="service-content">
+                                 <h3 style="color: #1e1e1e;font-weight: 500; line-height: 1.2; font-size: 1.4rem;">PHOTOGRAPHY</h3> <br>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident</p>
+                           </div>
+                    </div>
+            </div>         
+        </div>
+     </div>
+      <div class="row4">
+        <div class="row-main-box4">
+            <div class="row-4">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fa fa-binoculars"></i></div>
+                            <div class="service-content">
+                                 <h3 style="color: #1e1e1e;font-weight: 500; line-height: 1.2; font-size: 1.4rem;">RESPONSIVE DESIGN</h3> <br>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident</p>
+                           </div>
+                    </div>
+            </div>
+            <div class="row-5">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fa fa-sun-o"></i></div>
+                            <div class="service-content">
+                                 <h3 style="color: #1e1e1e;font-weight: 500; line-height: 1.2; font-size: 1.4rem;">GRAPHIC DESIGN</h3> <br>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident</p>
+                           </div>
+                    </div>
+            </div>
+            <div class="row-6">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fa fa-calendar"></i></div>
+                            <div class="service-content">
+                                 <h3 style="color: #1e1e1e;font-weight: 500; line-height: 1.2; font-size: 1.4rem;">MARKETING SERVICES</h3> <br>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident</p>
+                           </div>
+                    </div>
+            </div>
+        </div>
+      </div>   
+    <div class="bg1">      
+        <div class="blur">
+            <div class="blur_box">
+                <div class="box_circle">
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="counter-text">
+                    <p class="num">2</p>
+                    <p>WORKS COMPLETED</p>
+                </div>
+            </div>
+            <div class="blur_box">
+                <div class="box_circle">
+                    <i class="fa fa-newspaper-o"></i>
+                </div>
+                <div class="counter-text">
+                    <p class="num">0</p>
+                    <p>YEARS OF EXPERIENCE</p>
+                </div>
+            </div>
+            <div class="blur_box">
+                <div class="box_circle">
+                    <i class="fa fa-group"></i>
+                </div>
+                <div class="counter-text">
+                    <p class="num">0</p>
+                    <p>TOTAL CLIENTS</p>
+                </div>
+            </div>
+            <div class="blur_box">
+                <div class="box_circle">
+                    <i class="fa fa-trophy"></i>
+                </div>
+                <div class="counter-text">
+                    <p class="num">0</p>
+                    <p>AWARD WON</p>
+                </div>
+            </div>
+        </div>       
+    </div>
+    <div class="port">
+        <h3 class="PORTFOLIO" >PORTFOLIO</h3>
+        <p class="port-lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+    </div>
+    <div class="linemf2"></div>
+  <div class="row-port">
+        <div class="row-main-portbox">
+            <div class="row-port1">  
+                <div class="service-box1">
+                    <div class="service-img">
+                        <div class="img_hove">
+                            <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-2.jpg" alt="" >
+                        </div>
+                  <div class="service-img-lorem">
+                        <p>Lorem impsum dolor</p>
+                        <div class="port-fa-fa">
+                            <i class="fa fa-plus-circle" style="font-size:48px;color:#0078ff;"></i>
+                        </div>
+                    </div>
+                    <div class="web-more">
+                        <p style="color: #0078ff; font-size: 0.8rem;">Web Design</p>
+                        <p style="color: #4e4e4e; font-size: 0.8rem;">/ 15 may.2024</p>
+                    </div>
+                    </div>
+               </div>
+            </div>
+            <div class="row-port2">
+               <div class="service-box1">
+                   <div class="service-img">
+                   <div class="img_hove">
+                      <img src="https://www.ringcentral.com/gb/en/blog/wp-content/uploads/2021/05/working-on-plans-in-board-room-scaled.jpg" alt="">
+                        </div>
+                        <div class="service-img-lorem">
+                        <p>Lorem impsum dolor</p>
+                        <div class="port-fa-fa">
+                            <i class="fa fa-plus-circle" style="font-size:48px;color:#0078ff;"></i>
+                        </div> 
+                    </div>
+                        <div class="web-more">
+                            <p style="color: #0078ff; font-size: 0.8rem;">Web Design</p>
+                            <p style="color: #4e4e4e; font-size: 0.8rem;">/ 15 may.2024</p>
+                        </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row-port3">
+                <div class="service-box1">
+                   <div class="service-img">
+                   <div class="img_hove">
+                      <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-5.jpg" alt="">
+                  </div>
+                  <div class="service-img-lorem">
+                        <p>Lorem impsum dolor</p>
+                        <div class="port-fa-fa">
+                            <i class="fa fa-plus-circle" style="font-size:48px;color:#0078ff;"></i>
+                        </div>  
+                    </div>
+                        <div class="web-more">
+                            <p style="color: #0078ff; font-size: 0.8rem;">Web Design</p>
+                            <p style="color: #4e4e4e; font-size: 0.8rem;">/ 15 may.2024</p>
+                        </div>
+                </div>   
+        </div>
+   </div>
+   </div>  
+</div>
+<div class="rowport4">
+    <div class="row-main-portbox4">
+        <div style="border-radius: 0px;" class="row-4">
+            <div class="service-box1">
+                <div class="service-img">
+                <div class="img_hove">
+                    <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-4.jpg" alt=""  >
+              </div>
+              <div class="service-img-lorem">
+                    <p>Lorem impsum dolor</p>
+                    <div class="port-fa-fa">
+                        <i class="fa fa-plus-circle" style="font-size:48px;color:#0078ff;"></i>
+                        </div>
+                </div>
+                </div>
+                <div class="web-more">
+                    <p style="color: #0078ff; font-size: 0.8rem;">Web Design</p>
+                    <p style="color: #4e4e4e; font-size: 0.8rem;">/ 15 may.2024</p>
+                </div>
+            </div>
+        </div>
+        <div class="row-port5">
+            <div class="service-box1">
+                <div class="service-img">
+                <div class="img_hove">
+                    <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-1.jpg" alt=""  >
+              </div>
+              <div class="service-img-lorem">
+                    <p>Lorem impsum dolor</p>
+                    <div class="port-fa-fa">
+                        <i class="fa fa-plus-circle" style="font-size:48px;color:#0078ff;"></i>
+                    </div>
+                </div>
+                </div>
+                <div class="web-more">
+                    <p style="color: #0078ff; font-size: 0.8rem;">Web Design</p>
+                    <p style="color: #4e4e4e; font-size: 0.8rem;">/ 15 may.2024</p>
+                </div>
+                </div>
+        </div>
+        <div class="row-port6">
+            <div class="service-box1">
+                <div class="service-img">
+                <div class="img_hove">
+                    <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-3.jpg" alt=""  >
+              </div>
+              <div class="service-img-lorem">
+                    <p>Lorem impsum dolor</p>
+                    <div class="port-fa-fa">
+                        <i class="fa fa-plus-circle" style="font-size:48px;color:#0078ff;"></i>
+                    </div>
+                </div>
+                </div>
+                <div class="web-more">
+                    <p style="color: #0078ff; font-size: 0.8rem;">Web Design</p>
+                    <p style="color: #4e4e4e; font-size: 0.8rem;">/ 15 may.2024</p>
+                </div>
+           </div>
+        </div>
+    </div>
+  </div>  
+   <div class="bg2">
+    <div class="blur2">
+           <img class="port-mid-img"src="https://scontent-del1-1.xx.fbcdn.net/v/t39.30808-6/375862611_832141461940798_2910690741341354399_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=H_SrIgLXWN4Q7kNvgEqkjla&_nc_ht=scontent-del1-1.xx&oh=00_AYAP8gCbwqLzvTbPUlYnAkOCAU75HterUtoQ6s05AeJMCQ&oe=664D4998" alt="">
+   <p class="hp">Harshit Pandey</p>
+    <p class="hplead">
+        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor <br>sit amet,
+        consectetur adipiscing elit.
+      </p>
+        </div>
+</div>
+<div class="BLOG">
+    <h3 class="BLOG" >BLOG</h3></div>
+    <p class="BLOG-lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+     <div class="linemf3"></div>
+     <div class="blog">
+        <div class="blog-main-box">
+            <div class="blog-1">  
+                <div style="border-radius: 0;" class="blog-box">
+                    <img  src="https://media.istockphoto.com/id/1432549106/photo/young-female-traveler-passenger-walking-with-a-yellow-suitcase-at-the-modern-airport-terminal.webp?b=1&s=170667a&w=0&k=20&c=FPn50dpNYv5yftrhczMdWfMEJYj9zL4xDWFd6My0iFI=" alt="" height="240px" width="350px">
+                    <div class="blog-content">
+                        <h3> See more ideas about Travel</h3>
+                     </div>
+                        <p class="p" style="color: #4e4e4e;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+               </div>
+            </div>
+            <div class="blog-2">
+               <div style="border-radius: 0;" class="service-box">
+                <img  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/post-1.jpg" alt="" height="240px" width="350px">
+                            <div class="blog-content">
+                                <h3> See more ideas about Travel</h3>
+                             </div>
+                                <p class="p" style="color: #4e4e4e;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                        </div>
+                </div>
+            <div class="blog-3">
+                <div style="border-radius: 0;"  class="service-box">
+                <img  src="https://images.unsplash.com/photo-1542744094-3a31f272c490?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww" alt="" height="240px" width="350px">
+                                <div class="blog-content">
+                                    <h3> See more ideas about Travel</h3>
+                                 </div>
+                                    <p class="p" style="color: #4e4e4e;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p> 
+                           </div>
+                    </div>
+            </div>
+        </div>
+     </div>
+     <div class="bg3">
+        <div class="blur3">
+            <div class="border2">
+            <div class="col-form-1">
+                <div class="form-titel">
+                    <h5> Send Message Us</h5>
+                </div>
+                    <div class="enquery_box">
+                        <form action=" ">
+                <input type="text" placeholder=" YOUR NAME" class="form_style"><br> <br>
+                <input type="email" placeholder="YOUR EMAIL" class="form_style"><br> <br>
+                <input type="text" placeholder="SUBJECT" class="form_style"><br> <br>
+                <textarea name="" id="" class="form_style1">MESSAGE</textarea><br>
+                </form>
+                    </div>
+                    <div class="btn-main">
+                        <div class="div_btn">
+                            <a href="" class="btn_1">Send Message</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-form-2">
+                <div class="form-titel2">
+                    <h5>Get in Touch</h5>
+                </div>
+                <div class="form-info">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                    <ul class="list-ico">
+                        <li><span class="fa fa-map-marker"></span> Goshiganj Ayodhya lucknow</li>
+                        <li><span class="fa fa-phone-square"></span> (+91) 9151327170</li>
+                        <li><span class="fa fa-envelope-o"></span>Hp151578@gmail.com</li>
+                      </ul>
+                </div>
+                <div class="form-main-icon">
+                    <div class="form-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100054348557529" class="fa fa-facebook-square"></a>
+                    </div>
+                    <div class="form-icon">
+                        <a href="https://www.instagram.com/harshitpandey306/" class="fa fa-instagram"></a>
+                    </div>
+                    <div class="form-icon">
+                        <a href="https://www.linkedin.com/in/harshit-pandey-76144b255/" class="fa fa-linkedin-square"></a>   
+                    </div>
+                    <div class="form-icon">
+                        <a href="https://twitter.com/HarshitP30383" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        </div>
+    </div>
+</body>
+</html>

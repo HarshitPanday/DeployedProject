@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image in Border Box</title>
+<style>
+  .border-box {
+    border: 2px solid #ccc; /* Border styling */
+    padding: 10px; /* Padding inside the border */
+    width: 900px; /* Adjust width as needed */
+    height: 600px;
+    margin: 70px;
+    padding-inline-start: 100px;
+  }
+  .border-box img {
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto; 
+  }
+</style>
+</head>
+<body>
+  <div class="border-box">
+    <img src="Picsart_23-01-15_15-42-57-275.jpg" alt="Example Image" height="200px" width="200px">
+    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus numquam enim eos cumque deserunt, qui tempora alias optio maiores, eligendi odio ipsam ullam earum? Sequi ipsum facilis hic at quidem!</h1>
+  </div>
+</body>
+</html> -->
+<!-- 
+
+If you want to place an image as the border of an element, you can achieve this effect using CSS. Here's a basic example of how you can do this:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image as Border</title>
+<style>
+  .container {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow to prevent image extending beyond container */
+  }
+  .border-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place the image behind the content */
+  }
+  .content {
+    padding: 20px; /* Add padding to keep content away from border */
+    background-color: white; /* Ensure content background is consistent */
+    z-index: 1; /* Place content above the image */
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <img src="border-image.jpg" alt="Border Image" class="border-image">
+    <div class="content">
+      <!-- Your content goes here -->
+      <!-- <h1>Content inside the border</h1>
+      <p>This is the content inside the border box.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+ --> -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Rows</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .row {
+  height: 400px;
+  width: 400px;
+  background-color: #c00c0c;
+  margin-bottom: 10px; /* Add some space between rows */
+display: flex  ;
+align-items: center;
+}
+
+  </style>
+</head>
+<body>
+ <div class="row">
+  <div class="row">
+    <div class="row"></div>
+  </div>
+ </div>
+</div>                                      
+</div>
+</body>
+</html>
+
